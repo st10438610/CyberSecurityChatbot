@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSecurityChatbot", "CyberSecurityChatbot.csproj", "{1F10D64E-0300-4334-B9AF-212353B529ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{253BE78A-1842-4579-8225-294F8206B226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{7C0E82F8-01B0-459F-9BC6-3880569613F2}"
+	ProjectSection(SolutionItems) = preProject
+		main.yml = main.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C0E82F8-01B0-459F-9BC6-3880569613F2} = {253BE78A-1842-4579-8225-294F8206B226}
 	EndGlobalSection
 EndGlobal
